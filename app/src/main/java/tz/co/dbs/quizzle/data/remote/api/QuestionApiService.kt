@@ -5,7 +5,7 @@ import tz.co.dbs.quizzle.data.remote.dto.QuestionDto
 import javax.inject.Singleton
 
 @Singleton
-interface QuizApiService {
+interface QuestionApiService {
     @GET("questions.json")
     suspend fun getQuestions(): List<QuestionDto>
 }
