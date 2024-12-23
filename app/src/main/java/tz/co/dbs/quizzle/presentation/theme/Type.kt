@@ -1,4 +1,4 @@
-package tz.co.dbs.quizzle.ui.theme
+package tz.co.dbs.quizzle.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
